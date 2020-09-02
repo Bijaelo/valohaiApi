@@ -1,0 +1,18 @@
+Package: valohaiApi
+Title: Valohai API, high level functionality for integrating R with valohai
+Version: 1.0.0
+Authors@R: 
+    person(given = "Oliver",
+           family = "Madsen",
+           role = c("aut", "cre"),
+           email = "Oliver.madsen@opr-finance.dk")
+Maintainer: The package maintainer <Oliver.madsen@opr-finance.dk>
+Depends: R (>= 4.0.0),
+  httr (>= 1.4.1)
+Suggests: tidyr
+Description: This package provides a high level functionality for generating requests to the Valohai API.
+License: AGPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0

@@ -1,0 +1,5 @@
+^valohaiApi\.Rproj$
+^\.Rproj\.user$
+test.*
+test\*
+^LICENSE\.md$
