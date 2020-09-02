@@ -7,10 +7,8 @@ The package takes care of installing any and all dependencies necessary. In orde
 ```R
 devtools::install_github('bijaelo/valohaiApi')
 ```
-The package provides auto-formatting of most return values as tibbles. For this to work the [`tidyr`](https://cran.r-project.org/package=tidyr) package should be installed. This is included if 'suggsets' is added to dependencies. 
-```R
-install.packages('bijaelo/valohaiApi', dependencies = TRUE)
-```
+The package provides auto-formatting of most return values as tibbles. For this to work the [`tidyr`](https://cran.r-project.org/package=tidyr) package should be installed. Simply installing the suggested dependencies for this to work as intended.
+
 
 # R valohaiApi functions, descriptions and examples.
 The R valohaiApi contains 5, each handling the the the input and output of a specific request type.
